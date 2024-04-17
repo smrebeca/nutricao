@@ -1,3 +1,5 @@
+alert('Página em Teste - Em processo de criação')
+
 var questions = document.querySelectorAll('.question');
 
 questions.forEach(function(question) {
