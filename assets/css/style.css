@@ -1,0 +1,255 @@
+:root {
+    --bg-color: linear-gradient(90deg, #cdffd8, #94b9ff);
+    --text-color: #000;
+    --bg-hover: #f35d8b;
+}
+
+html {
+    background: var(--bg-color);
+    padding: 0 30px;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho a:hover {
+    color: var(--bg-hover);
+    border: 2px solid var(--bg-hover);
+    border-radius: 50px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* MAIN */
+/* section */
+section {
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* img */
+.img-ap {
+    width: 250px;
+    border: 2px solid var(--bg-hover);
+    border-radius: 50%;
+}
+
+/* inicio */
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.informacao {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rede-social {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.rede-social a:hover {
+    color: var(--bg-hover);
+    border: 2px solid var(--bg-hover);
+    border-radius: 50px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/* sobre */
+.rede-pessoal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede-pessoal a:hover {
+    color: var(--bg-hover);
+    border: 2px solid var(--bg-hover);
+    border-radius: 50px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.link {
+    font-weight: 600;
+    color: var(--bg-hover);
+}
+
+/* img-profile */
+
+.container-foto .profile {
+    max-width: 350px;
+    border-radius: 50%;
+    background-color: var(--bg-hover);
+}
+
+/* table */
+.horarios {
+    align-items: center;
+    margin-left: 150px;
+}
+
+/* horarios */
+#horarios {
+    margin-bottom: 30px;
+}
+
+table {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+table thead th {
+    background-color: aqua;
+    color: black;
+}
+
+table tbody tr:hover td {
+    background-color: rgba(0, 255, 255, 0.299);
+    cursor: pointer;
+}
+
+/* duvidas */
+.question {
+    display: flex;
+    align-items: center;
+    text-decoration: underline var(--bg-hover);
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.ativa {
+    display: block;
+}
+
+
+/* FOOTER */
+.container.footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.links-rapidos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.links-rapidos nav a {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.links-rapidos nav a:hover {
+    color: var(--bg-hover);
+    border: 2px solid var(--bg-hover);
+    border-radius: 50px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.contato-icon {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contato-icon a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contato-icon a:hover {
+    color: var(--bg-hover);
+    border: 2px solid var(--bg-hover);
+    border-radius: 50px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.footer-dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
