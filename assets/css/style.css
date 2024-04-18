@@ -1,13 +1,17 @@
 :root {
-    --bg-color: linear-gradient(90deg, #cdffd8, #94b9ff);
+    --bg-color: linear-gradient(180deg, #cdffd8, #94b9ff);
     --text-color: #000;
     --bg-hover: #f35d8b;
 }
 
 html {
+    scroll-behavior: smooth;
+}
+
+body {
     background: var(--bg-color);
     padding: 0 30px;
-    scroll-behavior: smooth;
+    
 }
 
 /* HEADER */

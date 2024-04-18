@@ -1,24 +1,8 @@
-@media (max-width: 425px) {
+@media only screen and (max-width: 810px) {
     .menu {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
-    }
-
-    .img-ap {
-        width: 150px;
-    }
-
-    .rede-social {
-        justify-content: center;
-    }
-
-    .container-foto .profile {
-        max-width: 200px;
-    }
-
-    .horarios {
-        margin-left: 0;
     }
 }
 
@@ -35,5 +19,74 @@
     .horarios {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .img-ap {
+        width: 150px;
+    }
+
+    .container-foto .profile {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .cabecalho {
+        gap: 15px;
+    }
+
+    .img-ap {
+        width: 100px;
+    }
+
+    .container-foto .profile {
+        max-width: 100px;
+    }
+
+    section {
+        margin-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
+        color: var(--text-color);
+    }
+    
+    section h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    section h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    section h4 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    section p {
+        font-size: 10px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    .links-rapidos {
+        font-size: 12px;
+    }
+
+    .contato {
+        gap: 50px;
+    }
+
+    .contato-icon {
+        font-size: 12px;
+    }
+
+    .contato-icon a {
+        margin-bottom: 10px;
+    }
+
+    a {
+        font-size: 12px;
     }
 }
